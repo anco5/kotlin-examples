@@ -66,4 +66,29 @@ fun main(args: Array<String>) {
         z = z + 10
         println("I am inside Do block --- " + z)
     } while (z <= 50)
+
+    /**
+     * Return
+     */
+    var n: Int = 10
+    println("The value of N is-- " + doubleMe(n))
+
+    /**
+     * Continue & Break
+     */
+    println("Example of Break and Continue")
+    myLabel@ for (cb in 1..10) {
+        if (cb == 5) {
+            println("I am inside if block with value" + cb + "\n-- hence it will the operation")
+            break@myLabel
+        } else {
+            println("I am inside else block with value" + cb)
+            continue@myLabel
+        }
+    }
+}
+
+/* Return */
+fun doubleMe(n:Int): Int {
+    return 2 * n
 }
