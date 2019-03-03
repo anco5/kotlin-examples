@@ -3,11 +3,9 @@
 
 # Structure
 
-```
-+ practice/
++ practice/  
  [Kotlin Koans](https://play.kotlinlang.org/koans/overview)
 
-+ tutorial/
++ tutorial/  
  [tutorialspoint](https://www.tutorialspoint.com/kotlin/index.htm)
-```
 
