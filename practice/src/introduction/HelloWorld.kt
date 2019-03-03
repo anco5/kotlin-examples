@@ -3,16 +3,9 @@ package introduction
 /**
  * Simple Function
  */
-class HelloWorld {
-    fun TODO(): String {
-        return "OK"
-    }
 
-    fun start(): String = helloWorld.TODO()
-}
-
-val helloWorld: HelloWorld = HelloWorld()
+fun start(): String = "OK"
 
 fun main(args: Array<String>) {
-    print(helloWorld.start())
+    print(start())
 }
