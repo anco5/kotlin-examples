@@ -3,7 +3,9 @@ package introduction
 /**
  * Lambdas
  */
-fun containsEven(collection: Collection<Int>): Boolean = collection.any{ it % 2 == 0}
+ fun containsEven(collection: Collection<Int>): Boolean = collection.any{ it % 2 == 0}
+// fun containsEven(collection: Collection<Int>): Boolean = collection.any{even: Int -> even % 2 == 0} <- 省略なし
+// fun containsEven(collection: Collection<Int>): Boolean = collection.any{even -> even % 2 == 0} <- 型省略
 
 fun main(args: Array<String>) {
     val collection = listOf(1,2,3,4,5)
